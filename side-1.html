@@ -1,0 +1,3346 @@
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Side 1 · Cookware · Trend Pod D14</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand">Paris Hilton · Trend Pod D14
+    <small>Walmart 481-store rollout · 36 SKUs · #BeAnIcon — Static Snapshot: 2026-08-30</small>
+  </div>
+  <div class="nav">
+    <a href="index.html" class="">Summary</a>
+    <a href="side-1.html" class="active">Side 1</a>
+    <a href="side-2.html" class="">Side 2</a>
+    <a href="side-3.html" class="">Side 3</a>
+    <a href="online.html" class="">Online Sales</a>
+    <a href="states.html" class="">States</a>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="side-layout">
+    <aside class="side-sidebar">
+      <div class="side-sidebar-card">
+        <img src="./images/side1.jpg" alt="Side 1 · Cookware display" style="width:100%;display:block;object-fit:contain;background:white;">
+        <div class="side-sidebar-title" style="color: #7B1D42">Side 1 · Cookware</div>
+        <div class="side-sidebar-sub">refreshed weekly · Walmart fiscal week rollup</div>
+        <div class="side-summary-list">
+          <div class="side-summary-row"><span class="lbl">SKUs</span><span class="val">8</span></div>
+          <div class="side-summary-row"><span class="lbl">Total Units</span><span class="val">1,894</span></div>
+          <div class="side-summary-row"><span class="lbl">Total Sales</span><span class="val">$62,209</span></div>
+          <div class="side-summary-row"><span class="lbl">Avg In-Stock</span><span class="val">90%</span></div>
+          <div class="side-summary-row"><span class="lbl">States Selling</span><span class="val">45</span></div>
+          <div class="side-summary-row"><span class="lbl">Stores Selling <span style="font-size:10px;color:var(--muted)">(≥3 SKUs this side)</span></span><span class="val">223</span></div>
+        </div>
+        
+        <div class="side-summary-topitem">
+          <strong>Top SKU:</strong> PH14306-AS<br>
+          <span style="color:var(--muted)">PH 8in Fry Pan - 2026</span><br>
+          402 units
+        </div>
+        
+      </div>
+      <div class="flash note" style="font-size:12.5px;padding:12px 14px;">
+        <strong>Calendar note:</strong> D14 launched fiscal <strong>Week 29 (Aug 15–21)</strong>.
+        August = weeks 28–29 only; Sep–Dec each get 4 weeks.
+      </div>
+    </aside>
+
+    <main class="side-main">
+      <div class="card" id="dollarStoreCard">
+        <h2>Monthly: $/Store — Actual vs. Forecast</h2>
+        <div class="controls">
+          <label style="font-size:13px;color:var(--muted)">Scope:</label>
+          <div class="multiselect" id="scopeMultiSelect">
+            <button type="button" class="multiselect-toggle" id="scopeMultiSelectBtn" type="button">Side 1 · Cookware (Total)</button>
+            <div class="multiselect-panel" id="scopeMultiSelectPanel">
+              <label class="multiselect-option"><input type="checkbox" class="scope-checkbox" value="SIDE_TOTAL" checked> Side 1 · Cookware (Total)</label>
+              <div class="multiselect-group-label">By Item (this side)</div>
+              
+                <label class="multiselect-option"><input type="checkbox" class="scope-checkbox" value="ITEM_662611334"> PH11574-AS — PH 3.3qt Popcorn Popper Pink</label>
+              
+                <label class="multiselect-option"><input type="checkbox" class="scope-checkbox" value="ITEM_683351642"> PH13777-AS — PH 2.2qt Heart Dutch Oven Pink</label>
+              
+                <label class="multiselect-option"><input type="checkbox" class="scope-checkbox" value="ITEM_683564533"> PH14254-AS — PH 2.5qt Pitcher</label>
+              
+                <label class="multiselect-option"><input type="checkbox" class="scope-checkbox" value="ITEM_684089838"> PH14304-AS — PH 7qt Slow Cooker Pink</label>
+              
+                <label class="multiselect-option"><input type="checkbox" class="scope-checkbox" value="ITEM_684089839"> PH14305-AS — PH 7qt Slow Cooker Cherry</label>
+              
+                <label class="multiselect-option"><input type="checkbox" class="scope-checkbox" value="ITEM_683351639"> PH14306-AS — PH 8in Fry Pan - 2026</label>
+              
+                <label class="multiselect-option"><input type="checkbox" class="scope-checkbox" value="ITEM_683351640"> PH14307-AS — PH 9.5in Fry Pan - 2026</label>
+              
+                <label class="multiselect-option"><input type="checkbox" class="scope-checkbox" value="ITEM_683351638"> PH14308-AS — PH 10pc Cookware Set - 2026</label>
+              
+            </div>
+          </div>
+          <span style="font-size:11px;color:var(--muted)">(check multiple to compare)</span>
+          <label style="font-size:13px;color:var(--muted);display:flex;align-items:center;gap:6px">
+            <input type="checkbox" id="showFutureToggle"> Show months with no actual data yet
+          </label>
+        </div>
+        
+<div class="controls" style="margin-bottom:10px">
+  <span style="font-size:13px;color:var(--muted)">Metric:</span>
+  <div class="seg-control">
+    <button type="button" class="metric-btn active" data-metric="dollars">$ / Store</button>
+    <button type="button" class="metric-btn" data-metric="units">Units / Store / Wk</button>
+  </div>
+</div>
+
+<div class="psm-scope" data-scope="SIDE_TOTAL" style="">
+  <h3 class="psm-scope-label">Side 1 · Cookware (Total)</h3>
+  
+  <table>
+    <thead><tr>
+      <th></th>
+      <th>Month</th>
+      <th class="num">Actual (Current Wk)</th>
+      <th class="num">Actual (Avg, Weeks So Far)</th>
+      <th class="num">Forecast</th>
+      <th class="num">Variance % (Current Wk)</th>
+      <th>Status</th>
+    </tr></thead>
+    <tbody>
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-SIDE_TOTAL-2026-08" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>August 2026 <span style="color:var(--muted);font-size:11px">(2/3 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$73.37</span>
+          <span class="metric-val metric-units" style="display:none">2.28</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$55.85</span>
+          <span class="metric-val metric-units" style="display:none">1.72</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$99.96</span>
+          <span class="metric-val metric-units" style="display:none">3.01</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">-26.6%</span>
+          <span class="metric-val metric-units" style="display:none">-24.1%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill bad">Below forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill bad">Below forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-SIDE_TOTAL-2026-08" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 29</td>
+                <td>2026-08-15 – 2026-08-21</td>
+                <td class="num">555</td>
+                <td class="num">$18,437</td>
+                <td class="num">1.15</td>
+                <td class="num">$38.33</td>
+                <td class="num"><span class="pill bad">-61.6%</span></td>
+                <td class="num"><span class="pill bad">-61.7%</span></td>
+              </tr>
+              
+              <tr>
+                <td>Wk 30</td>
+                <td>2026-08-22 – 2026-08-28</td>
+                <td class="num">1,097</td>
+                <td class="num">$35,290</td>
+                <td class="num">2.28</td>
+                <td class="num">$73.37</td>
+                <td class="num"><span class="pill bad">-24.1%</span></td>
+                <td class="num"><span class="pill bad">-26.6%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-SIDE_TOTAL-2026-09" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>September 2026 <span style="color:var(--muted);font-size:11px">(1/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$17.63</span>
+          <span class="metric-val metric-units" style="display:none">0.50</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$17.63</span>
+          <span class="metric-val metric-units" style="display:none">0.50</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$111.64</span>
+          <span class="metric-val metric-units" style="display:none">3.79</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">-84.2%</span>
+          <span class="metric-val metric-units" style="display:none">-86.7%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill bad">Below forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill bad">Below forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-SIDE_TOTAL-2026-09" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 31</td>
+                <td>2026-08-29 – 2026-09-04</td>
+                <td class="num">242</td>
+                <td class="num">$8,482</td>
+                <td class="num">0.50</td>
+                <td class="num">$17.63</td>
+                <td class="num"><span class="pill bad">-86.7%</span></td>
+                <td class="num"><span class="pill bad">-84.2%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>October 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$164.75</span>
+          <span class="metric-val metric-units" style="display:none">5.83</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>November 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$322.73</span>
+          <span class="metric-val metric-units" style="display:none">10.79</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>December 2026 <span style="color:var(--muted);font-size:11px">(0/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$336.02</span>
+          <span class="metric-val metric-units" style="display:none">11.68</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+    </tbody>
+  </table>
+  
+</div>
+
+<div class="psm-scope" data-scope="ITEM_662611334" style="display:none">
+  <h3 class="psm-scope-label">PH11574-AS — PH 3.3qt Popcorn Popper Pink</h3>
+  
+  <table>
+    <thead><tr>
+      <th></th>
+      <th>Month</th>
+      <th class="num">Actual (Current Wk)</th>
+      <th class="num">Actual (Avg, Weeks So Far)</th>
+      <th class="num">Forecast</th>
+      <th class="num">Variance % (Current Wk)</th>
+      <th>Status</th>
+    </tr></thead>
+    <tbody>
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-ITEM_662611334-2026-08" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>August 2026 <span style="color:var(--muted);font-size:11px">(2/3 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$5.98</span>
+          <span class="metric-val metric-units" style="display:none">0.40</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$4.58</span>
+          <span class="metric-val metric-units" style="display:none">0.31</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$6.44</span>
+          <span class="metric-val metric-units" style="display:none">0.43</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">-7.2%</span>
+          <span class="metric-val metric-units" style="display:none">-7.2%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill bad">Below forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill bad">Below forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-ITEM_662611334-2026-08" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 29</td>
+                <td>2026-08-15 – 2026-08-21</td>
+                <td class="num">102</td>
+                <td class="num">$1,527</td>
+                <td class="num">0.21</td>
+                <td class="num">$3.17</td>
+                <td class="num"><span class="pill bad">-50.7%</span></td>
+                <td class="num"><span class="pill bad">-50.7%</span></td>
+              </tr>
+              
+              <tr>
+                <td>Wk 30</td>
+                <td>2026-08-22 – 2026-08-28</td>
+                <td class="num">192</td>
+                <td class="num">$2,874</td>
+                <td class="num">0.40</td>
+                <td class="num">$5.98</td>
+                <td class="num"><span class="pill bad">-7.2%</span></td>
+                <td class="num"><span class="pill bad">-7.2%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-ITEM_662611334-2026-09" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>September 2026 <span style="color:var(--muted);font-size:11px">(1/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$1.68</span>
+          <span class="metric-val metric-units" style="display:none">0.11</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$1.68</span>
+          <span class="metric-val metric-units" style="display:none">0.11</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$18.08</span>
+          <span class="metric-val metric-units" style="display:none">1.21</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">-90.7%</span>
+          <span class="metric-val metric-units" style="display:none">-90.7%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill bad">Below forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill bad">Below forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-ITEM_662611334-2026-09" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 31</td>
+                <td>2026-08-29 – 2026-09-04</td>
+                <td class="num">54</td>
+                <td class="num">$808</td>
+                <td class="num">0.11</td>
+                <td class="num">$1.68</td>
+                <td class="num"><span class="pill bad">-90.7%</span></td>
+                <td class="num"><span class="pill bad">-90.7%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>October 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$31.81</span>
+          <span class="metric-val metric-units" style="display:none">2.13</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>November 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$52.40</span>
+          <span class="metric-val metric-units" style="display:none">3.50</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>December 2026 <span style="color:var(--muted);font-size:11px">(0/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$59.16</span>
+          <span class="metric-val metric-units" style="display:none">3.95</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+    </tbody>
+  </table>
+  
+</div>
+
+<div class="psm-scope" data-scope="ITEM_683351642" style="display:none">
+  <h3 class="psm-scope-label">PH13777-AS — PH 2.2qt Heart Dutch Oven Pink</h3>
+  
+  <table>
+    <thead><tr>
+      <th></th>
+      <th>Month</th>
+      <th class="num">Actual (Current Wk)</th>
+      <th class="num">Actual (Avg, Weeks So Far)</th>
+      <th class="num">Forecast</th>
+      <th class="num">Variance % (Current Wk)</th>
+      <th>Status</th>
+    </tr></thead>
+    <tbody>
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-ITEM_683351642-2026-08" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>August 2026 <span style="color:var(--muted);font-size:11px">(2/3 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$5.68</span>
+          <span class="metric-val metric-units" style="display:none">0.19</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$4.25</span>
+          <span class="metric-val metric-units" style="display:none">0.14</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$13.61</span>
+          <span class="metric-val metric-units" style="display:none">0.45</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">-58.2%</span>
+          <span class="metric-val metric-units" style="display:none">-58.3%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill bad">Below forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill bad">Below forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-ITEM_683351642-2026-08" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 29</td>
+                <td>2026-08-15 – 2026-08-21</td>
+                <td class="num">45</td>
+                <td class="num">$1,354</td>
+                <td class="num">0.09</td>
+                <td class="num">$2.81</td>
+                <td class="num"><span class="pill bad">-79.4%</span></td>
+                <td class="num"><span class="pill bad">-79.3%</span></td>
+              </tr>
+              
+              <tr>
+                <td>Wk 30</td>
+                <td>2026-08-22 – 2026-08-28</td>
+                <td class="num">91</td>
+                <td class="num">$2,734</td>
+                <td class="num">0.19</td>
+                <td class="num">$5.68</td>
+                <td class="num"><span class="pill bad">-58.3%</span></td>
+                <td class="num"><span class="pill bad">-58.2%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-ITEM_683351642-2026-09" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>September 2026 <span style="color:var(--muted);font-size:11px">(1/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$1.37</span>
+          <span class="metric-val metric-units" style="display:none">0.05</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$1.37</span>
+          <span class="metric-val metric-units" style="display:none">0.05</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$13.61</span>
+          <span class="metric-val metric-units" style="display:none">0.45</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">-89.9%</span>
+          <span class="metric-val metric-units" style="display:none">-89.9%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill bad">Below forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill bad">Below forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-ITEM_683351642-2026-09" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 31</td>
+                <td>2026-08-29 – 2026-09-04</td>
+                <td class="num">22</td>
+                <td class="num">$661</td>
+                <td class="num">0.05</td>
+                <td class="num">$1.37</td>
+                <td class="num"><span class="pill bad">-89.9%</span></td>
+                <td class="num"><span class="pill bad">-89.9%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>October 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$34.83</span>
+          <span class="metric-val metric-units" style="display:none">1.16</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>November 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$56.46</span>
+          <span class="metric-val metric-units" style="display:none">1.88</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>December 2026 <span style="color:var(--muted);font-size:11px">(0/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$56.46</span>
+          <span class="metric-val metric-units" style="display:none">1.88</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+    </tbody>
+  </table>
+  
+</div>
+
+<div class="psm-scope" data-scope="ITEM_683564533" style="display:none">
+  <h3 class="psm-scope-label">PH14254-AS — PH 2.5qt Pitcher</h3>
+  
+  <table>
+    <thead><tr>
+      <th></th>
+      <th>Month</th>
+      <th class="num">Actual (Current Wk)</th>
+      <th class="num">Actual (Avg, Weeks So Far)</th>
+      <th class="num">Forecast</th>
+      <th class="num">Variance % (Current Wk)</th>
+      <th>Status</th>
+    </tr></thead>
+    <tbody>
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-ITEM_683564533-2026-08" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>August 2026 <span style="color:var(--muted);font-size:11px">(2/3 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$3.92</span>
+          <span class="metric-val metric-units" style="display:none">0.16</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$3.06</span>
+          <span class="metric-val metric-units" style="display:none">0.12</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$3.80</span>
+          <span class="metric-val metric-units" style="display:none">0.15</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">+2.9%</span>
+          <span class="metric-val metric-units" style="display:none">+2.3%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill ok">On track</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill ok">On track</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-ITEM_683564533-2026-08" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 29</td>
+                <td>2026-08-15 – 2026-08-21</td>
+                <td class="num">42</td>
+                <td class="num">$1,055</td>
+                <td class="num">0.09</td>
+                <td class="num">$2.19</td>
+                <td class="num"><span class="pill bad">-42.7%</span></td>
+                <td class="num"><span class="pill bad">-42.4%</span></td>
+              </tr>
+              
+              <tr>
+                <td>Wk 30</td>
+                <td>2026-08-22 – 2026-08-28</td>
+                <td class="num">75</td>
+                <td class="num">$1,884</td>
+                <td class="num">0.16</td>
+                <td class="num">$3.92</td>
+                <td class="num"><span class="pill ok">+2.3%</span></td>
+                <td class="num"><span class="pill ok">+2.9%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-ITEM_683564533-2026-09" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>September 2026 <span style="color:var(--muted);font-size:11px">(1/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$0.88</span>
+          <span class="metric-val metric-units" style="display:none">0.04</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$0.88</span>
+          <span class="metric-val metric-units" style="display:none">0.04</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$3.80</span>
+          <span class="metric-val metric-units" style="display:none">0.15</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">-76.7%</span>
+          <span class="metric-val metric-units" style="display:none">-76.8%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill bad">Below forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill bad">Below forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-ITEM_683564533-2026-09" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 31</td>
+                <td>2026-08-29 – 2026-09-04</td>
+                <td class="num">17</td>
+                <td class="num">$426</td>
+                <td class="num">0.04</td>
+                <td class="num">$0.88</td>
+                <td class="num"><span class="pill bad">-76.8%</span></td>
+                <td class="num"><span class="pill bad">-76.7%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>October 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$6.71</span>
+          <span class="metric-val metric-units" style="display:none">0.27</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>November 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$16.02</span>
+          <span class="metric-val metric-units" style="display:none">0.64</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>December 2026 <span style="color:var(--muted);font-size:11px">(0/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$16.02</span>
+          <span class="metric-val metric-units" style="display:none">0.64</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+    </tbody>
+  </table>
+  
+</div>
+
+<div class="psm-scope" data-scope="ITEM_684089838" style="display:none">
+  <h3 class="psm-scope-label">PH14304-AS — PH 7qt Slow Cooker Pink</h3>
+  
+  <table>
+    <thead><tr>
+      <th></th>
+      <th>Month</th>
+      <th class="num">Actual (Current Wk)</th>
+      <th class="num">Actual (Avg, Weeks So Far)</th>
+      <th class="num">Forecast</th>
+      <th class="num">Variance % (Current Wk)</th>
+      <th>Status</th>
+    </tr></thead>
+    <tbody>
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-ITEM_684089838-2026-08" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>August 2026 <span style="color:var(--muted);font-size:11px">(2/3 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$14.30</span>
+          <span class="metric-val metric-units" style="display:none">0.32</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$10.49</span>
+          <span class="metric-val metric-units" style="display:none">0.23</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$20.71</span>
+          <span class="metric-val metric-units" style="display:none">0.46</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">-30.9%</span>
+          <span class="metric-val metric-units" style="display:none">-30.9%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill bad">Below forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill bad">Below forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-ITEM_684089838-2026-08" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 29</td>
+                <td>2026-08-15 – 2026-08-21</td>
+                <td class="num">73</td>
+                <td class="num">$3,213</td>
+                <td class="num">0.15</td>
+                <td class="num">$6.68</td>
+                <td class="num"><span class="pill bad">-67.0%</span></td>
+                <td class="num"><span class="pill bad">-67.7%</span></td>
+              </tr>
+              
+              <tr>
+                <td>Wk 30</td>
+                <td>2026-08-22 – 2026-08-28</td>
+                <td class="num">153</td>
+                <td class="num">$6,881</td>
+                <td class="num">0.32</td>
+                <td class="num">$14.30</td>
+                <td class="num"><span class="pill bad">-30.9%</span></td>
+                <td class="num"><span class="pill bad">-30.9%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-ITEM_684089838-2026-09" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>September 2026 <span style="color:var(--muted);font-size:11px">(1/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$3.27</span>
+          <span class="metric-val metric-units" style="display:none">0.07</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$3.27</span>
+          <span class="metric-val metric-units" style="display:none">0.07</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$20.71</span>
+          <span class="metric-val metric-units" style="display:none">0.46</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">-84.2%</span>
+          <span class="metric-val metric-units" style="display:none">-84.2%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill bad">Below forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill bad">Below forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-ITEM_684089838-2026-09" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 31</td>
+                <td>2026-08-29 – 2026-09-04</td>
+                <td class="num">35</td>
+                <td class="num">$1,574</td>
+                <td class="num">0.07</td>
+                <td class="num">$3.27</td>
+                <td class="num"><span class="pill bad">-84.2%</span></td>
+                <td class="num"><span class="pill bad">-84.2%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>October 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$28.92</span>
+          <span class="metric-val metric-units" style="display:none">0.64</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>November 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$63.44</span>
+          <span class="metric-val metric-units" style="display:none">1.41</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>December 2026 <span style="color:var(--muted);font-size:11px">(0/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$63.44</span>
+          <span class="metric-val metric-units" style="display:none">1.41</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+    </tbody>
+  </table>
+  
+</div>
+
+<div class="psm-scope" data-scope="ITEM_684089839" style="display:none">
+  <h3 class="psm-scope-label">PH14305-AS — PH 7qt Slow Cooker Cherry</h3>
+  
+  <table>
+    <thead><tr>
+      <th></th>
+      <th>Month</th>
+      <th class="num">Actual (Current Wk)</th>
+      <th class="num">Actual (Avg, Weeks So Far)</th>
+      <th class="num">Forecast</th>
+      <th class="num">Variance % (Current Wk)</th>
+      <th>Status</th>
+    </tr></thead>
+    <tbody>
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-ITEM_684089839-2026-08" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>August 2026 <span style="color:var(--muted);font-size:11px">(2/3 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$8.46</span>
+          <span class="metric-val metric-units" style="display:none">0.19</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$6.89</span>
+          <span class="metric-val metric-units" style="display:none">0.15</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$12.50</span>
+          <span class="metric-val metric-units" style="display:none">0.28</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">-32.3%</span>
+          <span class="metric-val metric-units" style="display:none">-31.9%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill bad">Below forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill bad">Below forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-ITEM_684089839-2026-08" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 29</td>
+                <td>2026-08-15 – 2026-08-21</td>
+                <td class="num">57</td>
+                <td class="num">$2,563</td>
+                <td class="num">0.12</td>
+                <td class="num">$5.33</td>
+                <td class="num"><span class="pill bad">-57.4%</span></td>
+                <td class="num"><span class="pill bad">-57.4%</span></td>
+              </tr>
+              
+              <tr>
+                <td>Wk 30</td>
+                <td>2026-08-22 – 2026-08-28</td>
+                <td class="num">91</td>
+                <td class="num">$4,068</td>
+                <td class="num">0.19</td>
+                <td class="num">$8.46</td>
+                <td class="num"><span class="pill bad">-31.9%</span></td>
+                <td class="num"><span class="pill bad">-32.3%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-ITEM_684089839-2026-09" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>September 2026 <span style="color:var(--muted);font-size:11px">(1/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$2.24</span>
+          <span class="metric-val metric-units" style="display:none">0.05</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$2.24</span>
+          <span class="metric-val metric-units" style="display:none">0.05</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$12.50</span>
+          <span class="metric-val metric-units" style="display:none">0.28</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">-82.1%</span>
+          <span class="metric-val metric-units" style="display:none">-82.1%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill bad">Below forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill bad">Below forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-ITEM_684089839-2026-09" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 31</td>
+                <td>2026-08-29 – 2026-09-04</td>
+                <td class="num">24</td>
+                <td class="num">$1,079</td>
+                <td class="num">0.05</td>
+                <td class="num">$2.24</td>
+                <td class="num"><span class="pill bad">-82.1%</span></td>
+                <td class="num"><span class="pill bad">-82.1%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>October 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$12.32</span>
+          <span class="metric-val metric-units" style="display:none">0.27</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>November 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$27.95</span>
+          <span class="metric-val metric-units" style="display:none">0.62</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>December 2026 <span style="color:var(--muted);font-size:11px">(0/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$27.95</span>
+          <span class="metric-val metric-units" style="display:none">0.62</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+    </tbody>
+  </table>
+  
+</div>
+
+<div class="psm-scope" data-scope="ITEM_683351639" style="display:none">
+  <h3 class="psm-scope-label">PH14306-AS — PH 8in Fry Pan - 2026</h3>
+  
+  <table>
+    <thead><tr>
+      <th></th>
+      <th>Month</th>
+      <th class="num">Actual (Current Wk)</th>
+      <th class="num">Actual (Avg, Weeks So Far)</th>
+      <th class="num">Forecast</th>
+      <th class="num">Variance % (Current Wk)</th>
+      <th>Status</th>
+    </tr></thead>
+    <tbody>
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-ITEM_683351639-2026-08" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>August 2026 <span style="color:var(--muted);font-size:11px">(2/3 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$8.17</span>
+          <span class="metric-val metric-units" style="display:none">0.54</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$5.74</span>
+          <span class="metric-val metric-units" style="display:none">0.38</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$6.29</span>
+          <span class="metric-val metric-units" style="display:none">0.42</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">+29.9%</span>
+          <span class="metric-val metric-units" style="display:none">+29.2%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill good">Exceeds forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill good">Exceeds forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-ITEM_683351639-2026-08" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 29</td>
+                <td>2026-08-15 – 2026-08-21</td>
+                <td class="num">106</td>
+                <td class="num">$1,594</td>
+                <td class="num">0.22</td>
+                <td class="num">$3.31</td>
+                <td class="num"><span class="pill bad">-47.5%</span></td>
+                <td class="num"><span class="pill bad">-47.3%</span></td>
+              </tr>
+              
+              <tr>
+                <td>Wk 30</td>
+                <td>2026-08-22 – 2026-08-28</td>
+                <td class="num">261</td>
+                <td class="num">$3,930</td>
+                <td class="num">0.54</td>
+                <td class="num">$8.17</td>
+                <td class="num"><span class="pill good">+29.2%</span></td>
+                <td class="num"><span class="pill good">+29.9%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-ITEM_683351639-2026-09" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>September 2026 <span style="color:var(--muted);font-size:11px">(1/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$1.10</span>
+          <span class="metric-val metric-units" style="display:none">0.07</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$1.10</span>
+          <span class="metric-val metric-units" style="display:none">0.07</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$6.32</span>
+          <span class="metric-val metric-units" style="display:none">0.42</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">-82.6%</span>
+          <span class="metric-val metric-units" style="display:none">-82.8%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill bad">Below forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill bad">Below forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-ITEM_683351639-2026-09" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 31</td>
+                <td>2026-08-29 – 2026-09-04</td>
+                <td class="num">35</td>
+                <td class="num">$527</td>
+                <td class="num">0.07</td>
+                <td class="num">$1.10</td>
+                <td class="num"><span class="pill bad">-82.8%</span></td>
+                <td class="num"><span class="pill bad">-82.6%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>October 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$6.59</span>
+          <span class="metric-val metric-units" style="display:none">0.44</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>November 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$12.28</span>
+          <span class="metric-val metric-units" style="display:none">0.82</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>December 2026 <span style="color:var(--muted);font-size:11px">(0/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$18.80</span>
+          <span class="metric-val metric-units" style="display:none">1.26</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+    </tbody>
+  </table>
+  
+</div>
+
+<div class="psm-scope" data-scope="ITEM_683351640" style="display:none">
+  <h3 class="psm-scope-label">PH14307-AS — PH 9.5in Fry Pan - 2026</h3>
+  
+  <table>
+    <thead><tr>
+      <th></th>
+      <th>Month</th>
+      <th class="num">Actual (Current Wk)</th>
+      <th class="num">Actual (Avg, Weeks So Far)</th>
+      <th class="num">Forecast</th>
+      <th class="num">Variance % (Current Wk)</th>
+      <th>Status</th>
+    </tr></thead>
+    <tbody>
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-ITEM_683351640-2026-08" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>August 2026 <span style="color:var(--muted);font-size:11px">(2/3 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$4.76</span>
+          <span class="metric-val metric-units" style="display:none">0.21</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$3.74</span>
+          <span class="metric-val metric-units" style="display:none">0.16</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$11.28</span>
+          <span class="metric-val metric-units" style="display:none">0.49</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">-57.8%</span>
+          <span class="metric-val metric-units" style="display:none">-58.1%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill bad">Below forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill bad">Below forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-ITEM_683351640-2026-08" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 29</td>
+                <td>2026-08-15 – 2026-08-21</td>
+                <td class="num">57</td>
+                <td class="num">$1,313</td>
+                <td class="num">0.12</td>
+                <td class="num">$2.73</td>
+                <td class="num"><span class="pill bad">-75.9%</span></td>
+                <td class="num"><span class="pill bad">-75.8%</span></td>
+              </tr>
+              
+              <tr>
+                <td>Wk 30</td>
+                <td>2026-08-22 – 2026-08-28</td>
+                <td class="num">99</td>
+                <td class="num">$2,288</td>
+                <td class="num">0.21</td>
+                <td class="num">$4.76</td>
+                <td class="num"><span class="pill bad">-58.1%</span></td>
+                <td class="num"><span class="pill bad">-57.8%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-ITEM_683351640-2026-09" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>September 2026 <span style="color:var(--muted);font-size:11px">(1/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$0.81</span>
+          <span class="metric-val metric-units" style="display:none">0.04</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$0.81</span>
+          <span class="metric-val metric-units" style="display:none">0.04</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$11.28</span>
+          <span class="metric-val metric-units" style="display:none">0.49</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">-92.8%</span>
+          <span class="metric-val metric-units" style="display:none">-92.8%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill bad">Below forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill bad">Below forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-ITEM_683351640-2026-09" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 31</td>
+                <td>2026-08-29 – 2026-09-04</td>
+                <td class="num">17</td>
+                <td class="num">$391</td>
+                <td class="num">0.04</td>
+                <td class="num">$0.81</td>
+                <td class="num"><span class="pill bad">-92.8%</span></td>
+                <td class="num"><span class="pill bad">-92.8%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>October 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$11.97</span>
+          <span class="metric-val metric-units" style="display:none">0.52</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>November 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$23.32</span>
+          <span class="metric-val metric-units" style="display:none">1.02</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>December 2026 <span style="color:var(--muted);font-size:11px">(0/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$23.32</span>
+          <span class="metric-val metric-units" style="display:none">1.02</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+    </tbody>
+  </table>
+  
+</div>
+
+<div class="psm-scope" data-scope="ITEM_683351638" style="display:none">
+  <h3 class="psm-scope-label">PH14308-AS — PH 10pc Cookware Set - 2026</h3>
+  
+  <table>
+    <thead><tr>
+      <th></th>
+      <th>Month</th>
+      <th class="num">Actual (Current Wk)</th>
+      <th class="num">Actual (Avg, Weeks So Far)</th>
+      <th class="num">Forecast</th>
+      <th class="num">Variance % (Current Wk)</th>
+      <th>Status</th>
+    </tr></thead>
+    <tbody>
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-ITEM_683351638-2026-08" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>August 2026 <span style="color:var(--muted);font-size:11px">(2/3 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$22.10</span>
+          <span class="metric-val metric-units" style="display:none">0.28</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$17.10</span>
+          <span class="metric-val metric-units" style="display:none">0.22</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$25.34</span>
+          <span class="metric-val metric-units" style="display:none">0.32</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">-12.8%</span>
+          <span class="metric-val metric-units" style="display:none">-12.5%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill bad">Below forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill bad">Below forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-ITEM_683351638-2026-08" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 29</td>
+                <td>2026-08-15 – 2026-08-21</td>
+                <td class="num">73</td>
+                <td class="num">$5,818</td>
+                <td class="num">0.15</td>
+                <td class="num">$12.10</td>
+                <td class="num"><span class="pill bad">-52.7%</span></td>
+                <td class="num"><span class="pill bad">-52.3%</span></td>
+              </tr>
+              
+              <tr>
+                <td>Wk 30</td>
+                <td>2026-08-22 – 2026-08-28</td>
+                <td class="num">135</td>
+                <td class="num">$10,632</td>
+                <td class="num">0.28</td>
+                <td class="num">$22.10</td>
+                <td class="num"><span class="pill bad">-12.5%</span></td>
+                <td class="num"><span class="pill bad">-12.8%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="">
+        <td>
+          
+          <button class="drill-toggle" data-target="psm-side1-ITEM_683351638-2026-09" aria-expanded="false">▸</button>
+          
+        </td>
+        <td>September 2026 <span style="color:var(--muted);font-size:11px">(1/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$6.27</span>
+          <span class="metric-val metric-units" style="display:none">0.08</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$6.27</span>
+          <span class="metric-val metric-units" style="display:none">0.08</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$25.34</span>
+          <span class="metric-val metric-units" style="display:none">0.32</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">-75.3%</span>
+          <span class="metric-val metric-units" style="display:none">-75.4%</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill bad">Below forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill bad">Below forecast</span></span>
+        </td>
+      </tr>
+      
+      <tr class="drill-row" id="psm-side1-ITEM_683351638-2026-09" style="display:none">
+        <td></td>
+        <td colspan="6">
+          <table class="drill-table">
+            <thead><tr>
+              <th>Fiscal Week</th><th>Dates</th>
+              <th class="num">Units</th><th class="num">Sales $</th>
+              <th class="num">Units/Store/Wk</th><th class="num">$/Store</th>
+              <th class="num">Var % (Units)</th><th class="num">Var % ($)</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr>
+                <td>Wk 31</td>
+                <td>2026-08-29 – 2026-09-04</td>
+                <td class="num">38</td>
+                <td class="num">$3,015</td>
+                <td class="num">0.08</td>
+                <td class="num">$6.27</td>
+                <td class="num"><span class="pill bad">-75.4%</span></td>
+                <td class="num"><span class="pill bad">-75.3%</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>October 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$31.60</span>
+          <span class="metric-val metric-units" style="display:none">0.40</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>November 2026 <span style="color:var(--muted);font-size:11px">(0/4 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$70.87</span>
+          <span class="metric-val metric-units" style="display:none">0.90</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+      <tr class="no-actual">
+        <td>
+          
+        </td>
+        <td>December 2026 <span style="color:var(--muted);font-size:11px">(0/5 wk)</span></td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">$70.87</span>
+          <span class="metric-val metric-units" style="display:none">0.90</span>
+        </td>
+        <td class="num">
+          <span class="metric-val metric-dollars">—</span>
+          <span class="metric-val metric-units" style="display:none">—</span>
+        </td>
+        <td>
+          <span class="metric-val metric-dollars"><span class="pill flat">No forecast</span></span>
+          <span class="metric-val metric-units" style="display:none"><span class="pill flat">No forecast</span></span>
+        </td>
+      </tr>
+      
+      
+    </tbody>
+  </table>
+  
+</div>
+
+
+      </div>
+
+      <div class="card">
+        <h2 id="trendHeading">Daily Trend</h2>
+        <p class="page-sub" style="margin:-4px 0 10px">Uses the same Scope selector as the $/Store table above.</p>
+        <div class="seg-control" style="margin-bottom:10px">
+          <button type="button" class="trend-gran-btn active" data-trend-gran="day">Day</button>
+          <button type="button" class="trend-gran-btn" data-trend-gran="week">Week</button>
+        </div>
+        <div id="trendChart"></div>
+      </div>
+
+      <div class="card" id="perSkuDetailCard">
+        <h2>Per-SKU Monthly Detail</h2>
+        <p class="page-sub" style="margin:-4px 0 10px">Uses the same Scope selector as the $/Store table and trend chart above — check multiple SKUs to see them side by side.</p>
+        <div class="controls">
+          <label style="font-size:13px;color:var(--muted);display:flex;align-items:center;gap:6px">
+            <input type="checkbox" class="future-toggle" data-target="perSkuDetailCard"> Show months with no actual data yet
+          </label>
+        </div>
+        
+          <div class="sku-detail-block" data-item="662611334">
+          <h3>PH11574-AS — PH 3.3qt Popcorn Popper Pink</h3>
+          <p style="font-size:12px;color:var(--muted);margin:-8px 0 10px">Avg Unit Retail: —</p>
+          <table style="margin-bottom:18px">
+            <thead><tr>
+              <th></th>
+              <th>Month</th>
+              <th class="num">Sales $</th>
+              <th class="num">Units</th>
+              <th class="num">Avg Units/Store/Week</th>
+              <th class="num">In-Stock Rate</th>
+              <th class="num">Forecast Units/Store/Week</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr class="">
+                <td>
+                  
+                  <button class="drill-toggle" data-target="item-662611334-2026-08" aria-expanded="false">▸</button>
+                  
+                </td>
+                <td>August 2026</td>
+                <td class="num">$4,401</td>
+                <td class="num">294</td>
+                <td class="num">0.31</td>
+                <td class="num">88%</td>
+                <td class="num">0.43</td>
+              </tr>
+              
+              <tr class="drill-row" id="item-662611334-2026-08" style="display:none">
+                <td></td>
+                <td colspan="6">
+                  <table class="drill-table">
+                    <thead><tr><th>Fiscal Week</th><th>Dates</th><th class="num">Units</th><th class="num">Sales $</th><th class="num">Units/Store</th><th class="num">In-Stock</th></tr></thead>
+                    <tbody>
+                      
+                      <tr>
+                        <td>Wk 29</td>
+                        <td>2026-08-15 – 2026-08-21</td>
+                        <td class="num">102</td>
+                        <td class="num">$1,527</td>
+                        <td class="num">0.21</td>
+                        <td class="num">81%</td>
+                      </tr>
+                      
+                      <tr>
+                        <td>Wk 30</td>
+                        <td>2026-08-22 – 2026-08-28</td>
+                        <td class="num">192</td>
+                        <td class="num">$2,874</td>
+                        <td class="num">0.40</td>
+                        <td class="num">95%</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              
+              
+              <tr class="">
+                <td>
+                  
+                  <button class="drill-toggle" data-target="item-662611334-2026-09" aria-expanded="false">▸</button>
+                  
+                </td>
+                <td>September 2026</td>
+                <td class="num">$808</td>
+                <td class="num">54</td>
+                <td class="num">0.79</td>
+                <td class="num">0%</td>
+                <td class="num">1.21</td>
+              </tr>
+              
+              <tr class="drill-row" id="item-662611334-2026-09" style="display:none">
+                <td></td>
+                <td colspan="6">
+                  <table class="drill-table">
+                    <thead><tr><th>Fiscal Week</th><th>Dates</th><th class="num">Units</th><th class="num">Sales $</th><th class="num">Units/Store</th><th class="num">In-Stock</th></tr></thead>
+                    <tbody>
+                      
+                      <tr>
+                        <td>Wk 31</td>
+                        <td>2026-08-29 – 2026-09-04</td>
+                        <td class="num">54</td>
+                        <td class="num">$808</td>
+                        <td class="num">0.11</td>
+                        <td class="num">0%</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>October 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">2.13</td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>November 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">3.50</td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>December 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">3.95</td>
+              </tr>
+              
+              
+            </tbody>
+          </table>
+          </div>
+        
+          <div class="sku-detail-block" data-item="683351642">
+          <h3>PH13777-AS — PH 2.2qt Heart Dutch Oven Pink</h3>
+          <p style="font-size:12px;color:var(--muted);margin:-8px 0 10px">Avg Unit Retail: —</p>
+          <table style="margin-bottom:18px">
+            <thead><tr>
+              <th></th>
+              <th>Month</th>
+              <th class="num">Sales $</th>
+              <th class="num">Units</th>
+              <th class="num">Avg Units/Store/Week</th>
+              <th class="num">In-Stock Rate</th>
+              <th class="num">Forecast Units/Store/Week</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr class="">
+                <td>
+                  
+                  <button class="drill-toggle" data-target="item-683351642-2026-08" aria-expanded="false">▸</button>
+                  
+                </td>
+                <td>August 2026</td>
+                <td class="num">$4,087</td>
+                <td class="num">136</td>
+                <td class="num">0.14</td>
+                <td class="num">92%</td>
+                <td class="num">0.45</td>
+              </tr>
+              
+              <tr class="drill-row" id="item-683351642-2026-08" style="display:none">
+                <td></td>
+                <td colspan="6">
+                  <table class="drill-table">
+                    <thead><tr><th>Fiscal Week</th><th>Dates</th><th class="num">Units</th><th class="num">Sales $</th><th class="num">Units/Store</th><th class="num">In-Stock</th></tr></thead>
+                    <tbody>
+                      
+                      <tr>
+                        <td>Wk 29</td>
+                        <td>2026-08-15 – 2026-08-21</td>
+                        <td class="num">45</td>
+                        <td class="num">$1,354</td>
+                        <td class="num">0.09</td>
+                        <td class="num">87%</td>
+                      </tr>
+                      
+                      <tr>
+                        <td>Wk 30</td>
+                        <td>2026-08-22 – 2026-08-28</td>
+                        <td class="num">91</td>
+                        <td class="num">$2,734</td>
+                        <td class="num">0.19</td>
+                        <td class="num">97%</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              
+              
+              <tr class="">
+                <td>
+                  
+                  <button class="drill-toggle" data-target="item-683351642-2026-09" aria-expanded="false">▸</button>
+                  
+                </td>
+                <td>September 2026</td>
+                <td class="num">$661</td>
+                <td class="num">22</td>
+                <td class="num">0.32</td>
+                <td class="num">0%</td>
+                <td class="num">0.45</td>
+              </tr>
+              
+              <tr class="drill-row" id="item-683351642-2026-09" style="display:none">
+                <td></td>
+                <td colspan="6">
+                  <table class="drill-table">
+                    <thead><tr><th>Fiscal Week</th><th>Dates</th><th class="num">Units</th><th class="num">Sales $</th><th class="num">Units/Store</th><th class="num">In-Stock</th></tr></thead>
+                    <tbody>
+                      
+                      <tr>
+                        <td>Wk 31</td>
+                        <td>2026-08-29 – 2026-09-04</td>
+                        <td class="num">22</td>
+                        <td class="num">$661</td>
+                        <td class="num">0.05</td>
+                        <td class="num">0%</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>October 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">1.16</td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>November 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">1.88</td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>December 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">1.88</td>
+              </tr>
+              
+              
+            </tbody>
+          </table>
+          </div>
+        
+          <div class="sku-detail-block" data-item="683564533">
+          <h3>PH14254-AS — PH 2.5qt Pitcher</h3>
+          <p style="font-size:12px;color:var(--muted);margin:-8px 0 10px">Avg Unit Retail: —</p>
+          <table style="margin-bottom:18px">
+            <thead><tr>
+              <th></th>
+              <th>Month</th>
+              <th class="num">Sales $</th>
+              <th class="num">Units</th>
+              <th class="num">Avg Units/Store/Week</th>
+              <th class="num">In-Stock Rate</th>
+              <th class="num">Forecast Units/Store/Week</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr class="">
+                <td>
+                  
+                  <button class="drill-toggle" data-target="item-683564533-2026-08" aria-expanded="false">▸</button>
+                  
+                </td>
+                <td>August 2026</td>
+                <td class="num">$2,939</td>
+                <td class="num">117</td>
+                <td class="num">0.12</td>
+                <td class="num">100%</td>
+                <td class="num">0.15</td>
+              </tr>
+              
+              <tr class="drill-row" id="item-683564533-2026-08" style="display:none">
+                <td></td>
+                <td colspan="6">
+                  <table class="drill-table">
+                    <thead><tr><th>Fiscal Week</th><th>Dates</th><th class="num">Units</th><th class="num">Sales $</th><th class="num">Units/Store</th><th class="num">In-Stock</th></tr></thead>
+                    <tbody>
+                      
+                      <tr>
+                        <td>Wk 29</td>
+                        <td>2026-08-15 – 2026-08-21</td>
+                        <td class="num">42</td>
+                        <td class="num">$1,055</td>
+                        <td class="num">0.09</td>
+                        <td class="num">100%</td>
+                      </tr>
+                      
+                      <tr>
+                        <td>Wk 30</td>
+                        <td>2026-08-22 – 2026-08-28</td>
+                        <td class="num">75</td>
+                        <td class="num">$1,884</td>
+                        <td class="num">0.16</td>
+                        <td class="num">100%</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              
+              
+              <tr class="">
+                <td>
+                  
+                  <button class="drill-toggle" data-target="item-683564533-2026-09" aria-expanded="false">▸</button>
+                  
+                </td>
+                <td>September 2026</td>
+                <td class="num">$426</td>
+                <td class="num">17</td>
+                <td class="num">0.25</td>
+                <td class="num">0%</td>
+                <td class="num">0.15</td>
+              </tr>
+              
+              <tr class="drill-row" id="item-683564533-2026-09" style="display:none">
+                <td></td>
+                <td colspan="6">
+                  <table class="drill-table">
+                    <thead><tr><th>Fiscal Week</th><th>Dates</th><th class="num">Units</th><th class="num">Sales $</th><th class="num">Units/Store</th><th class="num">In-Stock</th></tr></thead>
+                    <tbody>
+                      
+                      <tr>
+                        <td>Wk 31</td>
+                        <td>2026-08-29 – 2026-09-04</td>
+                        <td class="num">17</td>
+                        <td class="num">$426</td>
+                        <td class="num">0.04</td>
+                        <td class="num">0%</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>October 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">0.27</td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>November 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">0.64</td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>December 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">0.64</td>
+              </tr>
+              
+              
+            </tbody>
+          </table>
+          </div>
+        
+          <div class="sku-detail-block" data-item="684089838">
+          <h3>PH14304-AS — PH 7qt Slow Cooker Pink</h3>
+          <p style="font-size:12px;color:var(--muted);margin:-8px 0 10px">Avg Unit Retail: —</p>
+          <table style="margin-bottom:18px">
+            <thead><tr>
+              <th></th>
+              <th>Month</th>
+              <th class="num">Sales $</th>
+              <th class="num">Units</th>
+              <th class="num">Avg Units/Store/Week</th>
+              <th class="num">In-Stock Rate</th>
+              <th class="num">Forecast Units/Store/Week</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr class="">
+                <td>
+                  
+                  <button class="drill-toggle" data-target="item-684089838-2026-08" aria-expanded="false">▸</button>
+                  
+                </td>
+                <td>August 2026</td>
+                <td class="num">$10,093</td>
+                <td class="num">226</td>
+                <td class="num">0.23</td>
+                <td class="num">94%</td>
+                <td class="num">0.46</td>
+              </tr>
+              
+              <tr class="drill-row" id="item-684089838-2026-08" style="display:none">
+                <td></td>
+                <td colspan="6">
+                  <table class="drill-table">
+                    <thead><tr><th>Fiscal Week</th><th>Dates</th><th class="num">Units</th><th class="num">Sales $</th><th class="num">Units/Store</th><th class="num">In-Stock</th></tr></thead>
+                    <tbody>
+                      
+                      <tr>
+                        <td>Wk 29</td>
+                        <td>2026-08-15 – 2026-08-21</td>
+                        <td class="num">73</td>
+                        <td class="num">$3,213</td>
+                        <td class="num">0.15</td>
+                        <td class="num">91%</td>
+                      </tr>
+                      
+                      <tr>
+                        <td>Wk 30</td>
+                        <td>2026-08-22 – 2026-08-28</td>
+                        <td class="num">153</td>
+                        <td class="num">$6,881</td>
+                        <td class="num">0.32</td>
+                        <td class="num">98%</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              
+              
+              <tr class="">
+                <td>
+                  
+                  <button class="drill-toggle" data-target="item-684089838-2026-09" aria-expanded="false">▸</button>
+                  
+                </td>
+                <td>September 2026</td>
+                <td class="num">$1,574</td>
+                <td class="num">35</td>
+                <td class="num">0.51</td>
+                <td class="num">0%</td>
+                <td class="num">0.46</td>
+              </tr>
+              
+              <tr class="drill-row" id="item-684089838-2026-09" style="display:none">
+                <td></td>
+                <td colspan="6">
+                  <table class="drill-table">
+                    <thead><tr><th>Fiscal Week</th><th>Dates</th><th class="num">Units</th><th class="num">Sales $</th><th class="num">Units/Store</th><th class="num">In-Stock</th></tr></thead>
+                    <tbody>
+                      
+                      <tr>
+                        <td>Wk 31</td>
+                        <td>2026-08-29 – 2026-09-04</td>
+                        <td class="num">35</td>
+                        <td class="num">$1,574</td>
+                        <td class="num">0.07</td>
+                        <td class="num">0%</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>October 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">0.64</td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>November 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">1.41</td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>December 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">1.41</td>
+              </tr>
+              
+              
+            </tbody>
+          </table>
+          </div>
+        
+          <div class="sku-detail-block" data-item="684089839">
+          <h3>PH14305-AS — PH 7qt Slow Cooker Cherry</h3>
+          <p style="font-size:12px;color:var(--muted);margin:-8px 0 10px">Avg Unit Retail: —</p>
+          <table style="margin-bottom:18px">
+            <thead><tr>
+              <th></th>
+              <th>Month</th>
+              <th class="num">Sales $</th>
+              <th class="num">Units</th>
+              <th class="num">Avg Units/Store/Week</th>
+              <th class="num">In-Stock Rate</th>
+              <th class="num">Forecast Units/Store/Week</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr class="">
+                <td>
+                  
+                  <button class="drill-toggle" data-target="item-684089839-2026-08" aria-expanded="false">▸</button>
+                  
+                </td>
+                <td>August 2026</td>
+                <td class="num">$6,631</td>
+                <td class="num">148</td>
+                <td class="num">0.15</td>
+                <td class="num">89%</td>
+                <td class="num">0.28</td>
+              </tr>
+              
+              <tr class="drill-row" id="item-684089839-2026-08" style="display:none">
+                <td></td>
+                <td colspan="6">
+                  <table class="drill-table">
+                    <thead><tr><th>Fiscal Week</th><th>Dates</th><th class="num">Units</th><th class="num">Sales $</th><th class="num">Units/Store</th><th class="num">In-Stock</th></tr></thead>
+                    <tbody>
+                      
+                      <tr>
+                        <td>Wk 29</td>
+                        <td>2026-08-15 – 2026-08-21</td>
+                        <td class="num">57</td>
+                        <td class="num">$2,563</td>
+                        <td class="num">0.12</td>
+                        <td class="num">84%</td>
+                      </tr>
+                      
+                      <tr>
+                        <td>Wk 30</td>
+                        <td>2026-08-22 – 2026-08-28</td>
+                        <td class="num">91</td>
+                        <td class="num">$4,068</td>
+                        <td class="num">0.19</td>
+                        <td class="num">93%</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              
+              
+              <tr class="">
+                <td>
+                  
+                  <button class="drill-toggle" data-target="item-684089839-2026-09" aria-expanded="false">▸</button>
+                  
+                </td>
+                <td>September 2026</td>
+                <td class="num">$1,079</td>
+                <td class="num">24</td>
+                <td class="num">0.35</td>
+                <td class="num">0%</td>
+                <td class="num">0.28</td>
+              </tr>
+              
+              <tr class="drill-row" id="item-684089839-2026-09" style="display:none">
+                <td></td>
+                <td colspan="6">
+                  <table class="drill-table">
+                    <thead><tr><th>Fiscal Week</th><th>Dates</th><th class="num">Units</th><th class="num">Sales $</th><th class="num">Units/Store</th><th class="num">In-Stock</th></tr></thead>
+                    <tbody>
+                      
+                      <tr>
+                        <td>Wk 31</td>
+                        <td>2026-08-29 – 2026-09-04</td>
+                        <td class="num">24</td>
+                        <td class="num">$1,079</td>
+                        <td class="num">0.05</td>
+                        <td class="num">0%</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>October 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">0.27</td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>November 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">0.62</td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>December 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">0.62</td>
+              </tr>
+              
+              
+            </tbody>
+          </table>
+          </div>
+        
+          <div class="sku-detail-block" data-item="683351639">
+          <h3>PH14306-AS — PH 8in Fry Pan - 2026</h3>
+          <p style="font-size:12px;color:var(--muted);margin:-8px 0 10px">Avg Unit Retail: —</p>
+          <table style="margin-bottom:18px">
+            <thead><tr>
+              <th></th>
+              <th>Month</th>
+              <th class="num">Sales $</th>
+              <th class="num">Units</th>
+              <th class="num">Avg Units/Store/Week</th>
+              <th class="num">In-Stock Rate</th>
+              <th class="num">Forecast Units/Store/Week</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr class="">
+                <td>
+                  
+                  <button class="drill-toggle" data-target="item-683351639-2026-08" aria-expanded="false">▸</button>
+                  
+                </td>
+                <td>August 2026</td>
+                <td class="num">$5,524</td>
+                <td class="num">367</td>
+                <td class="num">0.38</td>
+                <td class="num">92%</td>
+                <td class="num">0.42</td>
+              </tr>
+              
+              <tr class="drill-row" id="item-683351639-2026-08" style="display:none">
+                <td></td>
+                <td colspan="6">
+                  <table class="drill-table">
+                    <thead><tr><th>Fiscal Week</th><th>Dates</th><th class="num">Units</th><th class="num">Sales $</th><th class="num">Units/Store</th><th class="num">In-Stock</th></tr></thead>
+                    <tbody>
+                      
+                      <tr>
+                        <td>Wk 29</td>
+                        <td>2026-08-15 – 2026-08-21</td>
+                        <td class="num">106</td>
+                        <td class="num">$1,594</td>
+                        <td class="num">0.22</td>
+                        <td class="num">85%</td>
+                      </tr>
+                      
+                      <tr>
+                        <td>Wk 30</td>
+                        <td>2026-08-22 – 2026-08-28</td>
+                        <td class="num">261</td>
+                        <td class="num">$3,930</td>
+                        <td class="num">0.54</td>
+                        <td class="num">99%</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              
+              
+              <tr class="">
+                <td>
+                  
+                  <button class="drill-toggle" data-target="item-683351639-2026-09" aria-expanded="false">▸</button>
+                  
+                </td>
+                <td>September 2026</td>
+                <td class="num">$527</td>
+                <td class="num">35</td>
+                <td class="num">0.51</td>
+                <td class="num">0%</td>
+                <td class="num">0.42</td>
+              </tr>
+              
+              <tr class="drill-row" id="item-683351639-2026-09" style="display:none">
+                <td></td>
+                <td colspan="6">
+                  <table class="drill-table">
+                    <thead><tr><th>Fiscal Week</th><th>Dates</th><th class="num">Units</th><th class="num">Sales $</th><th class="num">Units/Store</th><th class="num">In-Stock</th></tr></thead>
+                    <tbody>
+                      
+                      <tr>
+                        <td>Wk 31</td>
+                        <td>2026-08-29 – 2026-09-04</td>
+                        <td class="num">35</td>
+                        <td class="num">$527</td>
+                        <td class="num">0.07</td>
+                        <td class="num">0%</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>October 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">0.44</td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>November 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">0.82</td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>December 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">1.26</td>
+              </tr>
+              
+              
+            </tbody>
+          </table>
+          </div>
+        
+          <div class="sku-detail-block" data-item="683351640">
+          <h3>PH14307-AS — PH 9.5in Fry Pan - 2026</h3>
+          <p style="font-size:12px;color:var(--muted);margin:-8px 0 10px">Avg Unit Retail: —</p>
+          <table style="margin-bottom:18px">
+            <thead><tr>
+              <th></th>
+              <th>Month</th>
+              <th class="num">Sales $</th>
+              <th class="num">Units</th>
+              <th class="num">Avg Units/Store/Week</th>
+              <th class="num">In-Stock Rate</th>
+              <th class="num">Forecast Units/Store/Week</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr class="">
+                <td>
+                  
+                  <button class="drill-toggle" data-target="item-683351640-2026-08" aria-expanded="false">▸</button>
+                  
+                </td>
+                <td>August 2026</td>
+                <td class="num">$3,602</td>
+                <td class="num">156</td>
+                <td class="num">0.16</td>
+                <td class="num">91%</td>
+                <td class="num">0.49</td>
+              </tr>
+              
+              <tr class="drill-row" id="item-683351640-2026-08" style="display:none">
+                <td></td>
+                <td colspan="6">
+                  <table class="drill-table">
+                    <thead><tr><th>Fiscal Week</th><th>Dates</th><th class="num">Units</th><th class="num">Sales $</th><th class="num">Units/Store</th><th class="num">In-Stock</th></tr></thead>
+                    <tbody>
+                      
+                      <tr>
+                        <td>Wk 29</td>
+                        <td>2026-08-15 – 2026-08-21</td>
+                        <td class="num">57</td>
+                        <td class="num">$1,313</td>
+                        <td class="num">0.12</td>
+                        <td class="num">83%</td>
+                      </tr>
+                      
+                      <tr>
+                        <td>Wk 30</td>
+                        <td>2026-08-22 – 2026-08-28</td>
+                        <td class="num">99</td>
+                        <td class="num">$2,288</td>
+                        <td class="num">0.21</td>
+                        <td class="num">99%</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              
+              
+              <tr class="">
+                <td>
+                  
+                  <button class="drill-toggle" data-target="item-683351640-2026-09" aria-expanded="false">▸</button>
+                  
+                </td>
+                <td>September 2026</td>
+                <td class="num">$391</td>
+                <td class="num">17</td>
+                <td class="num">0.25</td>
+                <td class="num">0%</td>
+                <td class="num">0.49</td>
+              </tr>
+              
+              <tr class="drill-row" id="item-683351640-2026-09" style="display:none">
+                <td></td>
+                <td colspan="6">
+                  <table class="drill-table">
+                    <thead><tr><th>Fiscal Week</th><th>Dates</th><th class="num">Units</th><th class="num">Sales $</th><th class="num">Units/Store</th><th class="num">In-Stock</th></tr></thead>
+                    <tbody>
+                      
+                      <tr>
+                        <td>Wk 31</td>
+                        <td>2026-08-29 – 2026-09-04</td>
+                        <td class="num">17</td>
+                        <td class="num">$391</td>
+                        <td class="num">0.04</td>
+                        <td class="num">0%</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>October 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">0.52</td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>November 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">1.02</td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>December 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">1.02</td>
+              </tr>
+              
+              
+            </tbody>
+          </table>
+          </div>
+        
+          <div class="sku-detail-block" data-item="683351638">
+          <h3>PH14308-AS — PH 10pc Cookware Set - 2026</h3>
+          <p style="font-size:12px;color:var(--muted);margin:-8px 0 10px">Avg Unit Retail: —</p>
+          <table style="margin-bottom:18px">
+            <thead><tr>
+              <th></th>
+              <th>Month</th>
+              <th class="num">Sales $</th>
+              <th class="num">Units</th>
+              <th class="num">Avg Units/Store/Week</th>
+              <th class="num">In-Stock Rate</th>
+              <th class="num">Forecast Units/Store/Week</th>
+            </tr></thead>
+            <tbody>
+              
+              <tr class="">
+                <td>
+                  
+                  <button class="drill-toggle" data-target="item-683351638-2026-08" aria-expanded="false">▸</button>
+                  
+                </td>
+                <td>August 2026</td>
+                <td class="num">$16,450</td>
+                <td class="num">208</td>
+                <td class="num">0.22</td>
+                <td class="num">93%</td>
+                <td class="num">0.32</td>
+              </tr>
+              
+              <tr class="drill-row" id="item-683351638-2026-08" style="display:none">
+                <td></td>
+                <td colspan="6">
+                  <table class="drill-table">
+                    <thead><tr><th>Fiscal Week</th><th>Dates</th><th class="num">Units</th><th class="num">Sales $</th><th class="num">Units/Store</th><th class="num">In-Stock</th></tr></thead>
+                    <tbody>
+                      
+                      <tr>
+                        <td>Wk 29</td>
+                        <td>2026-08-15 – 2026-08-21</td>
+                        <td class="num">73</td>
+                        <td class="num">$5,818</td>
+                        <td class="num">0.15</td>
+                        <td class="num">87%</td>
+                      </tr>
+                      
+                      <tr>
+                        <td>Wk 30</td>
+                        <td>2026-08-22 – 2026-08-28</td>
+                        <td class="num">135</td>
+                        <td class="num">$10,632</td>
+                        <td class="num">0.28</td>
+                        <td class="num">99%</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              
+              
+              <tr class="">
+                <td>
+                  
+                  <button class="drill-toggle" data-target="item-683351638-2026-09" aria-expanded="false">▸</button>
+                  
+                </td>
+                <td>September 2026</td>
+                <td class="num">$3,015</td>
+                <td class="num">38</td>
+                <td class="num">0.55</td>
+                <td class="num">0%</td>
+                <td class="num">0.32</td>
+              </tr>
+              
+              <tr class="drill-row" id="item-683351638-2026-09" style="display:none">
+                <td></td>
+                <td colspan="6">
+                  <table class="drill-table">
+                    <thead><tr><th>Fiscal Week</th><th>Dates</th><th class="num">Units</th><th class="num">Sales $</th><th class="num">Units/Store</th><th class="num">In-Stock</th></tr></thead>
+                    <tbody>
+                      
+                      <tr>
+                        <td>Wk 31</td>
+                        <td>2026-08-29 – 2026-09-04</td>
+                        <td class="num">38</td>
+                        <td class="num">$3,015</td>
+                        <td class="num">0.08</td>
+                        <td class="num">0%</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>October 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">0.40</td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>November 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">0.90</td>
+              </tr>
+              
+              
+              <tr class="no-actual">
+                <td>
+                  
+                </td>
+                <td>December 2026</td>
+                <td class="num">$0</td>
+                <td class="num">0</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">0.90</td>
+              </tr>
+              
+              
+            </tbody>
+          </table>
+          </div>
+        
+      </div>
+
+      <div class="card">
+        <h2>Top States by Units</h2>
+        <p class="page-sub" style="margin:-4px 0 10px">Uses the same Scope selector as the $/Store table and trend chart above.</p>
+        <table>
+          <thead><tr><th>State</th><th class="num">Units</th></tr></thead>
+          <tbody id="topStatesBody"></tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+</div>
+<footer class="note">Epoca International · Paris Hilton Trend Pod D14 Dashboard</footer>
+
+<script>
+  window.__TOP_STATES_BY_SCOPE__ = {"SIDE_TOTAL":[{"state":"TEXAS","units":312},{"state":"FLORIDA","units":167},{"state":"CALIFORNIA","units":157},{"state":"GEORGIA","units":150},{"state":"ILLINOIS","units":149},{"state":"KENTUCKY","units":73},{"state":"ARIZONA","units":67},{"state":"ARKANSAS","units":65}],"ITEM_662611334":[{"state":"TEXAS","units":43},{"state":"FLORIDA","units":37},{"state":"CALIFORNIA","units":31},{"state":"GEORGIA","units":21},{"state":"ILLINOIS","units":21},{"state":"ARIZONA","units":20},{"state":"ARKANSAS","units":14},{"state":"KENTUCKY","units":14}],"ITEM_683351642":[{"state":"TEXAS","units":28},{"state":"FLORIDA","units":17},{"state":"GEORGIA","units":16},{"state":"CALIFORNIA","units":10},{"state":"VIRGINIA","units":10},{"state":"KENTUCKY","units":9},{"state":"ILLINOIS","units":6},{"state":"NEW MEXICO","units":6}],"ITEM_683564533":[{"state":"TEXAS","units":22},{"state":"GEORGIA","units":16},{"state":"CALIFORNIA","units":14},{"state":"FLORIDA","units":13},{"state":"ILLINOIS","units":7},{"state":"KENTUCKY","units":7},{"state":"NEVADA","units":7},{"state":"NEW MEXICO","units":6}],"ITEM_684089838":[{"state":"TEXAS","units":44},{"state":"GEORGIA","units":24},{"state":"CALIFORNIA","units":23},{"state":"ILLINOIS","units":20},{"state":"FLORIDA","units":19},{"state":"KENTUCKY","units":13},{"state":"INDIANA","units":12},{"state":"MISSOURI","units":10}],"ITEM_684089839":[{"state":"TEXAS","units":27},{"state":"FLORIDA","units":16},{"state":"CALIFORNIA","units":13},{"state":"GEORGIA","units":12},{"state":"ILLINOIS","units":12},{"state":"ARKANSAS","units":10},{"state":"OHIO","units":9},{"state":"KENTUCKY","units":8}],"ITEM_683351639":[{"state":"TEXAS","units":69},{"state":"ILLINOIS","units":43},{"state":"FLORIDA","units":34},{"state":"GEORGIA","units":34},{"state":"CALIFORNIA","units":33},{"state":"ARIZONA","units":14},{"state":"ARKANSAS","units":13},{"state":"WISCONSIN","units":13}],"ITEM_683351640":[{"state":"TEXAS","units":35},{"state":"ILLINOIS","units":17},{"state":"CALIFORNIA","units":14},{"state":"FLORIDA","units":13},{"state":"GEORGIA","units":9},{"state":"NEW JERSEY","units":7},{"state":"NEW MEXICO","units":7},{"state":"ARIZONA","units":6}],"ITEM_683351638":[{"state":"TEXAS","units":44},{"state":"ILLINOIS","units":23},{"state":"CALIFORNIA","units":19},{"state":"FLORIDA","units":18},{"state":"GEORGIA","units":18},{"state":"MISSOURI","units":10},{"state":"ARKANSAS","units":9},{"state":"INDIANA","units":9}]};
+  window.__TREND_BY_SCOPE__ = {"SIDE_TOTAL":[{"fiscal_week":29,"units":555},{"fiscal_week":30,"units":1097},{"fiscal_week":31,"units":242}],"ITEM_662611334":[{"fiscal_week":29,"units":102},{"fiscal_week":30,"units":192},{"fiscal_week":31,"units":54}],"ITEM_683351642":[{"fiscal_week":29,"units":45},{"fiscal_week":30,"units":91},{"fiscal_week":31,"units":22}],"ITEM_683564533":[{"fiscal_week":29,"units":42},{"fiscal_week":30,"units":75},{"fiscal_week":31,"units":17}],"ITEM_684089838":[{"fiscal_week":29,"units":73},{"fiscal_week":30,"units":153},{"fiscal_week":31,"units":35}],"ITEM_684089839":[{"fiscal_week":29,"units":57},{"fiscal_week":30,"units":91},{"fiscal_week":31,"units":24}],"ITEM_683351639":[{"fiscal_week":29,"units":106},{"fiscal_week":30,"units":261},{"fiscal_week":31,"units":35}],"ITEM_683351640":[{"fiscal_week":29,"units":57},{"fiscal_week":30,"units":99},{"fiscal_week":31,"units":17}],"ITEM_683351638":[{"fiscal_week":29,"units":73},{"fiscal_week":30,"units":135},{"fiscal_week":31,"units":38}]};
+  window.__TREND_BY_SCOPE_DAILY__ = {"SIDE_TOTAL":[{"date":"2026-08-15","units":53},{"date":"2026-08-16","units":54},{"date":"2026-08-17","units":57},{"date":"2026-08-18","units":59},{"date":"2026-08-19","units":80},{"date":"2026-08-20","units":102},{"date":"2026-08-21","units":150},{"date":"2026-08-22","units":183},{"date":"2026-08-23","units":194},{"date":"2026-08-24","units":127},{"date":"2026-08-25","units":143},{"date":"2026-08-26","units":141},{"date":"2026-08-27","units":142},{"date":"2026-08-28","units":167},{"date":"2026-08-29","units":242}],"ITEM_662611334":[{"date":"2026-08-15","units":14},{"date":"2026-08-16","units":9},{"date":"2026-08-17","units":8},{"date":"2026-08-18","units":10},{"date":"2026-08-19","units":18},{"date":"2026-08-20","units":24},{"date":"2026-08-21","units":19},{"date":"2026-08-22","units":36},{"date":"2026-08-23","units":34},{"date":"2026-08-24","units":19},{"date":"2026-08-25","units":30},{"date":"2026-08-26","units":19},{"date":"2026-08-27","units":21},{"date":"2026-08-28","units":33},{"date":"2026-08-29","units":54}],"ITEM_683351642":[{"date":"2026-08-15","units":2},{"date":"2026-08-16","units":3},{"date":"2026-08-17","units":5},{"date":"2026-08-18","units":7},{"date":"2026-08-19","units":3},{"date":"2026-08-20","units":6},{"date":"2026-08-21","units":19},{"date":"2026-08-22","units":6},{"date":"2026-08-23","units":17},{"date":"2026-08-24","units":12},{"date":"2026-08-25","units":9},{"date":"2026-08-26","units":12},{"date":"2026-08-27","units":15},{"date":"2026-08-28","units":20},{"date":"2026-08-29","units":22}],"ITEM_683564533":[{"date":"2026-08-15","units":0},{"date":"2026-08-16","units":2},{"date":"2026-08-17","units":8},{"date":"2026-08-18","units":4},{"date":"2026-08-19","units":6},{"date":"2026-08-20","units":9},{"date":"2026-08-21","units":13},{"date":"2026-08-22","units":12},{"date":"2026-08-23","units":12},{"date":"2026-08-24","units":6},{"date":"2026-08-25","units":9},{"date":"2026-08-26","units":11},{"date":"2026-08-27","units":13},{"date":"2026-08-28","units":12},{"date":"2026-08-29","units":17}],"ITEM_684089838":[{"date":"2026-08-15","units":7},{"date":"2026-08-16","units":8},{"date":"2026-08-17","units":11},{"date":"2026-08-18","units":4},{"date":"2026-08-19","units":10},{"date":"2026-08-20","units":12},{"date":"2026-08-21","units":21},{"date":"2026-08-22","units":25},{"date":"2026-08-23","units":21},{"date":"2026-08-24","units":26},{"date":"2026-08-25","units":15},{"date":"2026-08-26","units":23},{"date":"2026-08-27","units":24},{"date":"2026-08-28","units":19},{"date":"2026-08-29","units":35}],"ITEM_684089839":[{"date":"2026-08-15","units":6},{"date":"2026-08-16","units":2},{"date":"2026-08-17","units":5},{"date":"2026-08-18","units":4},{"date":"2026-08-19","units":9},{"date":"2026-08-20","units":11},{"date":"2026-08-21","units":20},{"date":"2026-08-22","units":12},{"date":"2026-08-23","units":17},{"date":"2026-08-24","units":5},{"date":"2026-08-25","units":17},{"date":"2026-08-26","units":8},{"date":"2026-08-27","units":17},{"date":"2026-08-28","units":15},{"date":"2026-08-29","units":24}],"ITEM_683351639":[{"date":"2026-08-15","units":7},{"date":"2026-08-16","units":10},{"date":"2026-08-17","units":8},{"date":"2026-08-18","units":9},{"date":"2026-08-19","units":20},{"date":"2026-08-20","units":22},{"date":"2026-08-21","units":30},{"date":"2026-08-22","units":51},{"date":"2026-08-23","units":45},{"date":"2026-08-24","units":30},{"date":"2026-08-25","units":33},{"date":"2026-08-26","units":34},{"date":"2026-08-27","units":30},{"date":"2026-08-28","units":38},{"date":"2026-08-29","units":35}],"ITEM_683351640":[{"date":"2026-08-15","units":6},{"date":"2026-08-16","units":6},{"date":"2026-08-17","units":6},{"date":"2026-08-18","units":11},{"date":"2026-08-19","units":9},{"date":"2026-08-20","units":8},{"date":"2026-08-21","units":11},{"date":"2026-08-22","units":24},{"date":"2026-08-23","units":23},{"date":"2026-08-24","units":11},{"date":"2026-08-25","units":13},{"date":"2026-08-26","units":15},{"date":"2026-08-27","units":6},{"date":"2026-08-28","units":7},{"date":"2026-08-29","units":17}],"ITEM_683351638":[{"date":"2026-08-15","units":11},{"date":"2026-08-16","units":14},{"date":"2026-08-17","units":6},{"date":"2026-08-18","units":10},{"date":"2026-08-19","units":5},{"date":"2026-08-20","units":10},{"date":"2026-08-21","units":17},{"date":"2026-08-22","units":17},{"date":"2026-08-23","units":25},{"date":"2026-08-24","units":18},{"date":"2026-08-25","units":17},{"date":"2026-08-26","units":19},{"date":"2026-08-27","units":16},{"date":"2026-08-28","units":23},{"date":"2026-08-29","units":38}]};
+  window.__PRESELECT_ITEM__ = (function () {
+    const m = /(?:^|[?&])item=([^&]+)/.exec(window.location.search);
+    return m ? decodeURIComponent(m[1]) : null;
+  })();
+</script>
+<script src="./js/chart.js"></script>
+<script src="./js/metric-toggle.js"></script>
+<script src="./js/scope-multiselect.js"></script>
+<script src="./js/side.js"></script>
+<script src="./js/side-top-states.js"></script>
+<script src="./js/side-scope-filter.js"></script>
+<script src="./js/drilldown.js"></script>
+<script src="./js/sku-filter.js"></script>
+<script src="./js/future-toggle-scoped.js"></script>
+</body>
+</html>
