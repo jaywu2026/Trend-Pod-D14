@@ -3,7 +3,7 @@ function drawLineChart(containerEl, points, opts) {
   opts = opts || {};
   const W = opts.width || 900, H = opts.height || 260, PAD = 40, PAD_LEFT = 56;
   if (!points.length) {
-    containerEl.innerHTML = '<p style="color:var(--muted)">暂无数据</p>';
+    containerEl.innerHTML = '<p style="color:var(--muted)">No data yet</p>';
     return;
   }
   const xs = points.map((_, i) => i);
@@ -41,7 +41,7 @@ function drawLineChart(containerEl, points, opts) {
     label.setAttribute("x", PAD_LEFT - 8); label.setAttribute("y", y + 4);
     label.setAttribute("font-size", "10"); label.setAttribute("fill", "#8A6B75");
     label.setAttribute("text-anchor", "end");
-    label.textContent = val >= 1000 ? Math.round(val / 100) / 10 + "k" : Math.round(val).toLocaleString();
+    label.textContent = (opts.prefix || "") + (val >= 1000 ? Math.round(val / 100) / 10 + "k" : Math.round(val).toLocaleString());
     svg.appendChild(label);
   }
 
@@ -91,7 +91,7 @@ function drawMultiLineChart(containerEl, series, opts) {
   opts = opts || {};
   series = series.filter((s) => s.points && s.points.length);
   if (!series.length) {
-    containerEl.innerHTML = '<p style="color:var(--muted)">暂无数据</p>';
+    containerEl.innerHTML = '<p style="color:var(--muted)">No data yet</p>';
     return;
   }
   if (series.length === 1) {
