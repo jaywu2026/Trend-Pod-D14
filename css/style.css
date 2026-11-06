@@ -301,3 +301,44 @@ html { scroll-behavior: smooth; }
 
 /* Latest-Week Variance totals row */
 #varianceTotalsRow td { border-top: 2px solid var(--brand-deep); font-weight: 600; background: var(--brand-bg); }
+
+/* Online SKU Detail: pin Vendor # + Item name during horizontal scroll */
+table.sticky-cols th:nth-child(1), table.sticky-cols td:nth-child(1) {
+  position: sticky; left: 0; z-index: 2; background: #fff; min-width: 92px;
+}
+table.sticky-cols th:nth-child(2), table.sticky-cols td:nth-child(2) {
+  position: sticky; left: 92px; z-index: 2; background: #fff; min-width: 190px;
+  box-shadow: 2px 0 4px rgba(123,29,66,0.08);
+}
+table.sticky-cols thead th:nth-child(1), table.sticky-cols thead th:nth-child(2) {
+  z-index: 3; background: #fff;
+}
+.month-toggle {
+  border: 1px solid var(--border); background: #fff; border-radius: 4px;
+  cursor: pointer; font-size: 11px; padding: 0 4px; color: var(--brand-deep);
+}
+
+/* Expand/collapse-all weekly rows button (matches pill button language) */
+.expand-all-btn {
+  border: 1px solid var(--border); background: white; color: var(--brand-deep);
+  padding: 5px 14px; font-size: 12.5px; font-weight: 600; border-radius: 999px;
+  cursor: pointer; font-family: inherit; transition: background .15s;
+}
+.expand-all-btn:hover { background: var(--brand-light); }
+
+/* FC Inventory "Top selling — watch stock" filter */
+.fc-watch-only tbody tr[data-watch="0"] { display: none; }
+.seg-control .fc-watch-btn, .seg-control .ads-ch-btn {
+  padding: 5px 12px; font-size: 12.5px; border: none; background: none; cursor: pointer; color: var(--muted);
+}
+.seg-control .fc-watch-btn.active, .seg-control .ads-ch-btn.active {
+  background: var(--brand-deep); color: #fff; font-weight: 600;
+}
+
+/* Display panel: pod-only default */
+#adsChDisplay.disp-pod-only tbody tr[data-pod="0"] { display: none; }
+.seg-control .disp-pod-btn { padding: 5px 12px; font-size: 12.5px; border: none; background: none; cursor: pointer; color: var(--muted); }
+.seg-control .disp-pod-btn.active { background: var(--brand-deep); color: #fff; font-weight: 600; }
+
+.seg-control .sku-sort-btn { padding: 5px 12px; font-size: 12.5px; border: none; background: none; cursor: pointer; color: var(--muted); }
+.seg-control .sku-sort-btn.active { background: var(--brand-deep); color: #fff; font-weight: 600; }
